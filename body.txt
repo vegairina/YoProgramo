@@ -1,0 +1,104 @@
+ <header>
+        <div class="container">
+            <p class="logo">TiendaMODA!</p>
+            <nav>
+            <a href="#">Quienes somos</a>
+            <a href="#">Sucursales</a>
+            <a href="#">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="carrousell">
+        <!--aca va a ir el carrousell-->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/imagen1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/imagen2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/imagen3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="image-container">
+            <h2>Somos TiendaMODA</h2>
+        </div>
+    </section>
+
+    <section id="productos"> <!--a esta seccion le ponemos margen despues-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-danger">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-danger">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-danger">Button</a>
+                  </div>
+                </div>
+              </div>              
+
+        </div>             
+             <article >
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem temporibus sint, nihil at ducimus enim perferendis veritatis recusandae et eius inventore sit voluptates facere magni nulla. Alias suscipit ullam distinctio.</p>
+             </article>
+             <article>lore</article>
+             <aside><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, beatae culpa aut excepturi fugiat modi quas sunt provident, eligendi ullam, nisi sed soluta deserunt reiciendis aliquam obcaecati dicta amet accusantium?</p></aside> 
+    </section> 
+    
+    <section>
+        <div class="container">
+            <p>Datos de contacto</p>
+
+        </div>
+        </section>
+
+        <footer>
+            <div class="container">
+            <p> Vega Irina</p>
+            </div>
+    </footer>
